@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- document encoding -->
+        <encoding>UTF-8</encoding>
+
+        <!-- title of the document -->
+        <documentTitle>Catalyst Automation</documentTitle>
+
+        <!-- report name - displayed at top-nav -->
+        <reportName>
+        <b>Catalyst Test Automation Report</b>
+            <![CDATA[
+                <img src='C:/Walmart/POC/Java/catalyst/catalyst/resources/cigniti_logo.png' />
+            ]]>
+        </reportName>
+
+        <!-- report headline - displayed at top-nav, after reportHeadline -->
+        <reportHeadline></reportHeadline>
+
+        <!-- custom javascript -->
+        <scripts>
+            <![CDATA[
+                $(document).ready(function() {
+                  var foo =  document.getElementsByClassName("brand-logo");                
+                  for (let i = 0; i < foo.children.length; i++) {
+  //alert(foo.children[i].tagName);
+}
+                 
+                });
+            ]]>
+        </scripts>
+
+        <!-- custom styles -->
+        <styles>
+            <![CDATA[
+                nav {
+    background: #041e42;
+}
+nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+    height: 70px;
+    line-height: 70px;
+}
+                
+                .report-name { padding-left: 10px; height: 90%;font-size: xx-large;} .report-name > img { float: right;height: 90%;margin-left: 30px;margin-top: 2px;width: auto; }
+            ]]>
+        </styles>
+    </configuration>
+</extentreports>

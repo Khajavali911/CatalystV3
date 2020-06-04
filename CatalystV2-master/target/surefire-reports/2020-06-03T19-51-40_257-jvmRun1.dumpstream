@@ -1,0 +1,93 @@
+# Created at 2020-06-03T19:51:54.149
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-06-03T19:51:54.685
+Unexpected IOException with stream: 
+
+# Created at 2020-06-03T19:51:54.688
+Unexpected IOException with stream: [
+
+# Created at 2020-06-03T19:51:54.690
+Unexpected IOException with stream: 32m
+
+# Created at 2020-06-03T19:51:54.691
+Unexpected IOException with stream: .
+
+# Created at 2020-06-03T19:51:54.693
+Unexpected IOException with stream: 
+
+# Created at 2020-06-03T19:51:54.695
+Unexpected IOException with stream: [
+
+# Created at 2020-06-03T19:51:54.696
+Unexpected IOException with stream: 0m
+
+# Created at 2020-06-03T19:51:54.699
+Unexpected IOException with stream: from onTestSuccess
+
+# Created at 2020-06-03T19:51:54.700
+Unexpected IOException: 6,1,catalyst.automation.testrunner.testrunner,feature(catalyst.automation.testrunner.testrunner),null,null,null
+
+
+# Created at 2020-06-03T19:51:54.705
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-03T19:51:54.707
+Unexpected IOException with stream: 1
+
+# Created at 2020-06-03T19:51:54.708
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2020-06-03T19:51:54.710
+Unexpected IOException with stream: [32m1 passed[0m
+
+# Created at 2020-06-03T19:51:54.711
+Unexpected IOException with stream: )
+
+
+# Created at 2020-06-03T19:51:54.712
+Unexpected IOException with stream: 3
+
+# Created at 2020-06-03T19:51:54.713
+Unexpected IOException with stream:  Steps (
+
+# Created at 2020-06-03T19:51:54.715
+Unexpected IOException with stream: [32m3 passed[0m
+
+# Created at 2020-06-03T19:51:54.716
+Unexpected IOException with stream: )
+
+
+# Created at 2020-06-03T19:51:54.717
+Unexpected IOException with stream: 0m
+
+# Created at 2020-06-03T19:51:54.719
+Unexpected IOException with stream: 6.779s
+
+
+# Created at 2020-06-03T19:51:54.720
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-03T19:51:54.721
+Unexpected IOException with stream: 
+
+
+# Created at 2020-06-03T19:51:54.729
+Unexpected IOException: 8,1,catalyst.automation.testrunner.testrunner,tearDownClass(catalyst.automation.testrunner.testrunner),null,null,null,null,testrunner.tearDownClass:89 \00BB NullPointer,java.lang.NullPointerException\000A\0009at catalyst.automation.testrunner.testrunner.tearDownClass(testrunner.java:89)\000A
+
+
+# Created at 2020-06-03T19:51:55.312
+Unexpected IOException with stream: On finish from listener
+
+# Created at 2020-06-03T19:51:55.568
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+
